@@ -1,0 +1,5 @@
+components-15.4.7z (76.0 MB) : My distro is formed by extracting these binary components into a single directory, then adding the batch files and readme. These binary components are useful if you want to create a subset of my distro, or if you want to update a few components without having to rebuild everything.
+
+Building the components from scratch requires a few things. First, you'll need their sources, which you can obtain from their official websites. Second, you'll need my build scripts and patches, which are in the scripts-VERSION subdirectory in the root of the distro. Finally, the build scripts must be run in MSYS2, and README.md in scripts-VERSION explains how to set that up.
+
+The scripts-VERSION subdirectory is a git repository, available on GitHub.
